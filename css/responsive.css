@@ -1,0 +1,466 @@
+
+@media (max-width:991.98px){
+    #navbar {
+        position: fixed;
+        background-color: #2b2d33;
+        padding: 5px 0;
+        z-index: 999;
+       }
+}
+@media (max-width:767.98px) {
+    #navbar {
+        position: fixed;
+        background-color: #2b2d33;
+        padding: 5px 0;
+        z-index: 999;
+       }
+
+}
+
+
+
+@media (max-width:575.98px) {
+    #navbar {
+     position: fixed;
+     background-color: #2b2d33;
+     padding: 5px 0;
+     z-index: 999;
+    
+    }
+
+    .navbar .container {
+       
+        flex-wrap: nowrap;
+    }
+  
+/*Animated side menu  start*/
+
+.animation_cls_button{
+    width: 40px;
+    border-radius: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 3px;
+    background: transparent;
+    border: none;
+  
+}
+
+.animation_cls_button:focus{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+
+.animation_cls_button span{
+    width: 100%;
+    background-color: #fff;
+    height: 3px;
+    border-radius: 2px;
+    transition: all linear .1s;
+}
+.animation_cls_button span:nth-child(2){
+    height: 2px;
+}
+
+.animation_cls_button span.rotate_1{
+transform: rotate(45deg) translateX(12px);
+}
+.animation_cls_button span.hide{ 
+    transform: translateX(-5px);
+    opacity: 0;
+    visibility: hidden;
+
+}
+.animation_cls_button span.rotate_2{
+    transform: rotate(136deg) translateX(-12px);
+}
+ /*Animated side menu end*/
+
+/*Banner  start*/
+
+#banner {
+   padding-top: 70px;
+   padding-bottom: 0px;
+}
+
+
+
+#banner .row{
+    flex-direction: column-reverse;
+}
+
+.man_image{
+    width: 280px;
+    margin: 0 auto;
+   
+}
+
+.man_image img{
+    object-fit: cover;
+
+}
+
+
+.details{
+    text-align: center;
+}
+
+.banner_container .details .hello h3 {
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+
+
+.banner_container .details .name h3 {
+    font-size: 45px;
+   
+}
+
+.banner_container .details .job {
+    font-size: 10px;
+  
+}
+.banner_container .details{
+	padding: 0 35px;
+}
+.banner_container .details .job p {
+    font-size: 18px;
+
+}
+
+.banner_container .details .text p {
+    font-size: 16px;
+}
+
+.banner_container .button .button-about a {
+    padding: 8px 20px;
+
+}
+
+.bottom_button_2 svg {
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: 36px;
+}
+
+.banner_container .details .button {
+	align-items: center;
+    justify-content: center;
+}
+
+/*Banner end*/
+
+/* process part start */
+#process {
+    padding: 80px 0 0 0;
+}
+
+.item-list .icon {
+    width: 100px;
+    height: 100px;
+ 
+}
+
+.item-list .icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.item-list .icon svg {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 26%;
+}
+
+.item-list h3 {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.item-list p {
+    font-size: 16px;
+
+}
+
+.item-list .icon svg {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 33%;
+}
+
+.item-list{
+    margin-bottom: 50px;
+}
+/* process part end */
+
+/* creative part start */
+.creative_container .left .text_1 {
+    left: -9px;
+}
+
+.creative_container .images .position {
+    display: none;
+}
+
+.creative_container .right h3 {
+    font-size: 33px;
+  
+}
+
+.creative_container .right .image {
+    display: none;
+}
+
+.creative_container .left .text_1 {
+ position: static;
+ width: 100%;
+ height: auto;
+ margin: 25px 0;
+ display: block;
+ text-align: center;
+}
+
+.creative_container .left .text_2 {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    display: block;
+    text-align: center;
+}
+
+.creative_container .left .text_1 h3{
+    padding-bottom: 20px;
+   
+}
+
+.creative_container .left .text_2 h3 {
+       padding-bottom: 20px;
+}
+
+.creative_container .right {
+    padding: 0;
+    text-align: center;
+}
+
+.creative_container .right h3 {
+   padding: 0 55px;
+}
+/* creative part end */
+
+/* portfolio start */
+.filter_item ul {
+    
+    gap: 20px;
+   
+}
+
+.portfolio_container h2 {
+    font-weight: 500;
+    font-size: 33px;
+    color: var(--white);
+    line-height: 1.25;
+    font-family: var(--Jost);
+    margin-bottom: 16px;
+}
+
+.portfolio_gallery {
+    column-count: 1;
+    gap: 20px;
+  
+}
+
+.portfolio_gallery .brush_image {
+  display: none;
+}
+
+/* portfolio end */
+
+/* progress bar start */
+.progress_bar .text {
+   
+   padding-right: 0;
+}
+
+.progress_bar .text h2 {
+    font-size: 33px;
+}
+.progress_bar .images {
+      padding-left: 0;
+}
+
+.progress_bar .images img {
+    max-height: 400px;
+    max-width: 500px;
+}
+/* progress bar end*/
+
+/* service part start */
+
+#services .services_text h2 {
+    font-size: 33px;
+}
+
+.service_item .icon {
+  display: none;
+}
+
+.service_item .text_detail {
+    padding-right: 0;
+}
+
+.services_container .right_image {
+    display: none;
+}
+
+.services_container .images_two {
+    display: none;
+}
+/* service part end */
+
+
+/* testimonial part start */
+
+.testimonial_container h2 {
+    font-size: 33px;
+}
+
+.image_item .first_image {
+  display: none;
+}
+
+.image_item .second_image {
+display: none;
+}
+
+.image_item .third_image {
+  display: none;
+}
+
+.image_item .four_image {
+    display: none;
+}
+
+.image_item .green_circle {
+    display: none;
+}
+
+.image_item .yellow_circle {
+    display: none;
+}
+
+.image_item .purple_circle {
+    display: none;
+}
+
+.image_item_right .right_yellow_circle {
+    display: none;
+}
+
+.image_item_right .right_first_image {
+    display: none;
+}
+
+.image_item_right .right_second_image {
+    display: none;
+}
+
+.image_item_right .right_third_image {
+    display: none;
+
+}
+
+.image_item_right .right_green_circle {
+    display: none;
+}
+
+.image_item_right .right_purple_circle {
+    display: none;
+}
+
+
+
+/* testimonial part end */
+
+
+/* brand part start */
+.top_image {
+  display: none;
+}
+
+#brand .brand_item {
+    padding: 43px 20px;
+}
+
+ #brand .brand_item.bb_none {
+    border-bottom: 1px solid #555;
+}
+/* brand end start */
+
+
+/* blog part start */
+
+.blog-container .heading h2 {
+    font-size: 33px;
+}
+
+.blog_leftimage {
+    display: none;
+}
+
+.blog_rightimage {
+    display: none;
+}
+
+/* blog part end */
+
+/* email part start */
+
+.email .overlay {
+    padding: 80px;
+}
+
+.email_text h2 {
+    font-size: 33px;
+
+}
+
+.email_item input {
+    padding: 11px;
+   
+}
+
+.email_item input[type=email] {
+    width: 65%;
+  }
+.email_item input[type=submit] {
+    width: 35%;
+    padding-left: 20px;
+  }
+
+
+/* email part end */
+
+/* contact part start */
+
+.contact_heading h2 { 
+    font-size: 33px;   
+}
+
+.contact_top_image {
+    display: none;
+}
+
+.contact_bottom_image {
+    display: none;
+}
+/* contact part end */
+}
